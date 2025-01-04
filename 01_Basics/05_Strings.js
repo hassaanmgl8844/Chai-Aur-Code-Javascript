@@ -23,4 +23,14 @@ console.log(newString);
 const anotherString = gameName.slice(-8,4);
 console.log(anotherString);
 
+const newStringOne = "   hassaan   ";
+console.log(newStringOne);
+console.log(newStringOne.trim());
 
+const url = "https://hitesh.com/hassaa%40n"
+
+console.log(url.replace("%40", "-"));
+
+console.log(url.includes("hassaan"));
+
+console.log(gameName.split("-"));
